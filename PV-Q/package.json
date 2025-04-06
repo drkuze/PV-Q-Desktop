@@ -1,0 +1,31 @@
+{
+  "name": "pv-q",
+  "version": "1.0.0",
+  "description": "pv-q",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder"
+  },
+  "devDependencies": {
+    "electron": "^25.0.0",
+    "electron-builder": "^23.0.0"
+  },
+  "build": {
+    "appId": "com.mycompany.myapp",
+    "productName": "PV-Q",
+    "icon": "assets/icons/Icon_512x512.png",
+    "win": {
+      "target": "nsis"
+    },
+    "mac": {
+      "target": "dmg"
+    },
+    "linux": {
+      "target": "AppImage"
+    }
+  },
+  "dependencies": {
+    "discord-rpc": "^4.0.1"
+  }
+}

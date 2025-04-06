@@ -1,0 +1,1 @@
+![Proof (Upscaled)](Images/Screenshot1.png)
